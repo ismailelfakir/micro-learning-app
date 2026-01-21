@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">DOM Tree Structure</text>
+  
+  <!-- Root element -->
+  <rect x="150" y="60" width="100" height="40" rx="5" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  <text x="200" y="85" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" font-weight="bold">&lt;html&gt;</text>
+  
+  <!-- Lines to children -->
+  <line x1="200" y1="100" x2="100" y2="140" stroke="#666" stroke-width="2"/>
+  <line x1="200" y1="100" x2="300" y2="140" stroke="#666" stroke-width="2"/>
+  
+  <!-- Head element -->
+  <rect x="50" y="140" width="100" height="40" rx="5" fill="#2196F3" stroke="#1565C0" stroke-width="2"/>
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">&lt;head&gt;</text>
+  
+  <!-- Body element -->
+  <rect x="250" y="140" width="100" height="40" rx="5" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+  <text x="300" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" font-weight="bold">&lt;body&gt;</text>
+  
+  <!-- Lines from body to children -->
+  <line x1="300" y1="180" x2="250" y2="220" stroke="#666" stroke-width="2"/>
+  <line x1="300" y1="180" x2="350" y2="220" stroke="#666" stroke-width="2"/>
+  
+  <!-- Main element -->
+  <rect x="200" y="220" width="100" height="40" rx="5" fill="#9C27B0" stroke="#6A1B9A" stroke-width="2"/>
+  <text x="250" y="245" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white" font-weight="bold">&lt;main&gt;</text>
+  
+  <!-- Legend -->
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="12" fill="#666">Parent → Enfant</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="12" fill="#666">querySelector()</text>
+</svg>

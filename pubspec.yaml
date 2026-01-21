@@ -1,0 +1,53 @@
+name: micro_learning_app
+description: Application mobile de micro-learning multiplateforme avec Flutter et SQLite
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # SQLite database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Password hashing
+  crypto: ^3.0.3
+  
+  # Local storage & file handling
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # PDF viewer (mobile)
+  pdfx: ^2.9.2
+  
+  # Video player (mobile)
+  video_player: ^2.8.1
+  
+  # SVG support
+  flutter_svg: ^2.0.9
+  
+  # UI utilities
+  cupertino_icons: ^1.0.6
+  
+  # NOTE: Packages suivants seront ajoutés lors de l'implémentation des features correspondantes:
+  # - syncfusion_flutter_pdfviewer: pour la lecture PDF (feature content_reader)
+  # - video_player: pour la lecture vidéo (feature content_reader)
+  # - cached_network_image: pour les images (feature content_reader)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets pour les PDFs, vidéos et images de démo
+  assets:
+    - assets/pdfs/
+    - assets/videos/
+    - assets/images/
